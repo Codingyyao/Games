@@ -1,0 +1,41 @@
+html, body {
+  margin: 0;
+}
+
+html {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  height: 60vw;
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: 1.5;
+  text-align: center;
+  margin: 0px auto;
+  color: gray;
+  background-color: rgba(255, 255, 255, 0.2);
+  text-shadow: 5px 5px 4px rgba(128, 128, 128, 0.5);
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+div {
+
+    font-size: 16px;
+    color: black;
+}
+
+p {
+    position: fixed;
+    margin: 0;
+    font-size: 30px;
+    bottom: 20px;
+    right: 20px;
+    color: red;
+}
