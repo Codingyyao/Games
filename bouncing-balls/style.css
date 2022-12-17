@@ -29,13 +29,60 @@ div {
 
     font-size: 16px;
     color: black;
+    margin-top: 10px;
+    text-align: center;
 }
 
 p {
     position: fixed;
     margin: 0;
-    font-size: 30px;
+    font-size: 24px;
     bottom: 20px;
-    right: 20px;
+    right: 0px;
     color: red;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+
+}
+#a {
+    color: whitesmoke;
+    background-color: brown;
+    text-shadow: 1px 1px 1px white;
+    font-size: 20px;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#d {
+    color: whitesmoke;
+    background-color: darkcyan;
+    text-shadow: 1px 1px 1px white;
+    font-size: 20px;
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#w {
+    color: whitesmoke;
+    background-color: darkorange;
+    text-shadow: 1px 1px 1px white;
+    font-size: 20px;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#s {
+    color: whitesmoke;
+    background-color: darkolivegreen;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px white;
+    grid-column: 2;
+    grid-row: 3;
 }
