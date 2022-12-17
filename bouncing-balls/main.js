@@ -2,7 +2,7 @@
 
 const canvas = document.querySelector('canvas');
 const body = document.querySelector('body');
-const ballCounts = document.createElement('p');
+//const ballCounts = document.createElement('p');
 body.appendChild(ballCounts);
 
 const ctx = canvas.getContext('2d');
